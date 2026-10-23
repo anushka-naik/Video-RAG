@@ -6,6 +6,8 @@ Research project for finding and answering questions about moments in video. Com
 
 The default answer model is Qwen3-VL 8B through Ollama. Video indexing and evaluation run locally; no hosted demo is available.
 
+![Video RAG processing and question-answering flow](docs/video-rag-flow.svg)
+
 ## Try it
 
 Install the project with `make install`, index a local dataset using the instructions in [evaluation](docs/evaluation.md), then start the demo with `make demo`.
