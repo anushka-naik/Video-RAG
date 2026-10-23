@@ -1,0 +1,2 @@
+class IngestionError(RuntimeError):
+    pass

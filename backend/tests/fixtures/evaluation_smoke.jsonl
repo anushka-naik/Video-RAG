@@ -1,0 +1,3 @@
+{"id":"synthetic-slide-answer","video_id":"00000000-0000-0000-0000-000000000001","question":"What animal is named on the slide?","answerable":true,"acceptable_answers":["Blue whale"],"gold_evidence":[{"video_id":"00000000-0000-0000-0000-000000000001","start_s":2.0,"end_s":4.0}]}
+{"id":"synthetic-frame-answer","video_id":"00000000-0000-0000-0000-000000000002","question":"What color is the box?","answerable":true,"acceptable_answers":["Red"],"gold_evidence":[{"video_id":"00000000-0000-0000-0000-000000000002","start_s":5.0,"end_s":6.0}]}
+{"id":"synthetic-unanswerable","video_id":"00000000-0000-0000-0000-000000000003","question":"What is the serial number?","answerable":false,"acceptable_answers":[],"gold_evidence":[]}
