@@ -2,11 +2,11 @@
 
 [![CI](https://github.com/anushka-naik/Video-RAG/actions/workflows/ci.yml/badge.svg)](https://github.com/anushka-naik/Video-RAG/actions/workflows/ci.yml)
 
-Research project for finding and answering questions about moments in video. Compare lexical, dense, visual, and hybrid retrieval over local video, with timestamped evidence and grounded answers.
+Research project for finding and answering questions about moments in video. The API-backed service asynchronously indexes video into PostgreSQL and Qdrant for evidence-grounded chat; a separate local CLI and Streamlit demo compare lexical, dense, visual, and hybrid retrieval.
 
-The default answer model is Qwen3-VL 8B through Ollama. Video indexing and evaluation run locally; no hosted demo is available.
+The service chat path uses Anthropic for query planning and answer generation. The standalone research path defaults to Qwen3-VL 8B through Ollama, with OpenAI and Anthropic also available. The project runs locally; no hosted demo is available.
 
-![Video RAG processing and question-answering flow](docs/video-rag-flow.svg)
+![Video RAG system architecture](docs/video-rag-architecture.svg)
 
 ## Try it
 
